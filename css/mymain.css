@@ -1,0 +1,97 @@
+body {
+    padding: 40px 0;
+}
+
+.grid img {
+    max-width: 130px !important;
+    padding: 10px;
+}
+
+.row {
+    padding: 10px 0;
+}
+
+.sidebar {
+    font-family: 'Ovo', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.sidebar li {
+    padding: 5px;
+    margin:  5px 0;
+    border-bottom: 1px solid #CCC;
+    cursor: pointer;
+}
+
+.sidebar li.selected {
+    background-color: black;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Ovo', sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.details h2 {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.details img {
+    margin: 0 auto;
+    display: block;
+}
+
+.details p.author {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.details p.tags {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+.details div.description {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.details div.description p {
+    text-indent: 42px;
+}
+
+.details div.description p:first-child {
+    text-indent: 0;
+}
+
+blockquote {
+    line-height: 24px;
+    margin: 20px;
+    font-style: italic;
+}
+
+.details img {
+    max-width: 260px !important;
+}
+
+.grid img.selected {
+    background-color: #EC9;
+}
